@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/**
+Thin 100
+Extra-light 200
+Light 300
+Regular 400
+Medium 500
+Semi-bold 600
+Bold 700
+Extra-bold 800
+Black 900
+**/
+.body {
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+* {
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+/*** scroollbar ***/
+*::-webkit-scrollbar {
+  width: 0px;
+  background: rgba(0, 0, 0, 0) 0% 0% no-repeat padding-box;
+}
+
+*::-webkit-scrollbar-button {
+  background: rbga(0, 0, 0, 0);
+}
+
+*::-webkit-scrollbar-track-piece {
+  width: 0px;
+}
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px black;
+          box-shadow: inset 0 0 6px black;
+  border: none;
+  width: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+a :hover {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.main .app {
+  width: 450px;
+  background: #2a2c31;
+  height: 100%;
+}
+
+@media all and (max-width: 450px) {
+  .main .app {
+    width: 100%;
+  }
+}
+
+.main .app .home_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.main .app .home_container .struct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 100%;
+}
+
+.main .app .home_container .struct .logo {
+  display: block;
+  width: 90px;
+}
+
+.main .app .home_container .struct .logo img {
+  width: 100%;
+}
+
+.main .app .home_container .struct .ilus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  margin-top: 50px;
+}
+
+.main .app .home_container .struct .ilus img {
+  width: 120%;
+}
+
+.main .app .home_container .struct .intro {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main .app .home_container .struct .intro .text1 {
+  text-align: center;
+  font: normal normal bold 28px/34px Montserrat;
+  letter-spacing: 0px;
+  color: #fafafa;
+}
+
+.main .app .home_container .struct .intro .text2 {
+  font: normal normal 300 13px/21px Saira;
+  letter-spacing: 0px;
+  color: #fafafa;
+}
+
+.main .app .home_container .struct .btn_start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 224px;
+  margin-top: 30px;
+  height: 55px;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #fafafa;
+  background: #eb552d;
+  border-radius: 10px;
+}
+
+.main .app .home_container .img_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.main .app .home_container .img_footer img {
+  width: 160%;
+}
